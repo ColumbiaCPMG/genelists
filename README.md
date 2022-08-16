@@ -1,15 +1,50 @@
 # Genelists compiled from various sources that can be used for geneset analysis in denovo or gene burden analysis
 
-The gene lists in this repository is separated into constrained and not constrained genes. Within the constrained and not constrained genes folder, please find the genes classified by three types of deleterious variants: 
-1. Missense
-2. PTV
-3. PTV and Missense 
-Within these subfolders is another subfolder that contains gene lists that exclude kidney genes. 
+The gene lists in this repository were collected from multiple public databases and published papers (sources noted below). The lists are separated into constrained and original genes. The constraint score is determined by the observed/expected ratio (oe) of less than 0.35. The constrained genes were further categorized by Protein Truncated Variants (PTV), Missense and PTVMissense. The criteria filter for constrained missense variants is a missense Z (misZ) score of greater than 3.09. The criteria filter for constrained PTV variants is a probability of being loss-of-function intolerant (pLI) score of greater than and equal to 0.9. These scores were calculated using data from the Genome Aggregation Database (gnomAD, https://gnomad.broadinstitute.org/help/constraint). 
 
-The gene list for autism-associated genes is obtained from the public database AutDb, which is explained in detail in the associated paper, "AutDB: a gene reference resource for autism research" (Basu, Saumyendra N et al. “AutDB: a gene reference resource for autism research.” Nucleic acids research vol. 37,Database issue (2009): D832-6. doi:10.1093/nar/gkn835). The AutDB database contains monogenic genes as well as risk-conferring candidates of autism. Genes from this database were identified through extensive literature review of published scientific literature within the PubMed database and then annotated–a step which includes a classification of the candidate gene into one or more of the following categories:   
-1. rAut: genes associated with rare, monogenic ASD
-2. sAut: gnees associated with syndromic ASD
-3. iAut: genes associated with idiopathic ASD
-4. fAut: functional candidates that do ot fall into rAut, sAut or iAut categories. 
 
-The gene list for congenital heart disease (CHD) is obtained from the article, "Contribution of rare inherited and de novo variants in 2,871 congenital heart disease probands" (Jin, Sheng Chih et al. “Contribution of rare inherited and de novo variants in 2,871 congenital heart disease probands.” Nature genetics vol. 49,11 (2017): 1593-1601. doi:10.1038/ng.3970). The paper conducted whole-exome sequencing 2,871 CHD probands from the PCGC and Pediatric Heart Network (PHN) programs. They filtered out individuals who had trisomies and CHD-associated CNVs. A control cohort of 1,789 individuals of unaffected parents and siblings of autism probands was used in analysis.
+The current genelists and sources are below: 
+1. Kidney genes (https://www.columbiamedicine.org/divisions/gharavi/resources.php)
+	a. CPMG_kidney_gene_list.csv (625 genes)
+2. Murine E15
+	a. E15_Top_decile_misZ3_09_Constrained.csv (202 genes)
+	b. E15_Top_decile_misZ3_09_no_kidney_list_Constrained.csv (189 genes)
+	c. E15_Top_decile_pli09_oe_lof_up_035_Constrained.csv (458 genes)
+	d. E15_Top_decile_pli09_oe_lof_up_035_no_kidney_list_Constrained.csv (434 genes)
+	e. E15_Top_decile_pli09_oe_lof_up_035_ANDOR_misZ3_09_Constrained.csv (492 genes)
+	f. E15_Top_decile_pli09_oe_lof_up_035_ANDOR_misZ3_09_no_kidney_list_Constrained.csv (462 genes)
+	g. E15_Top_decile_no_kidney_list.csv (1586 genes)
+	h. E15_Top_decile.csv (1626 genes)
+3. Nephron Progenitory Cells (NPC)
+	a. NPCa_c_d_wk18__Top_decile_misZ3_09_no_kidney_list_Constrained.csv (228 genes)
+	b. NPCa_c_d_wk18_Top_decile_misZ3_09_Constrained.csv (238 genes)
+	c. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_Constrained.csv (632 genes)
+	d. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_no_kidney_list_Constrained.csv (610 genes)
+	e. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_ANDOR_misZ3_09_Constrained.csv (663 genes)
+	f. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_ANDOR_misZ3_09_no_kidney_list_Constrained.csv (641 genes)
+	g. NPCa_c_d_wk18_Top_decile_no_Kidney_List_Genes.csv (2413 genes)
+	h. NPCa_c_d_wk18_Top_decile.csv (2451 genes)
+4. Autism (http://autism.mindspec.org/autdb/Welcome.do)
+	a. ASD_constrained_genes.csv (1387 genes)
+	b. AutismDB_misZ309_no_kidney_list_Constrained.csv (250 genes)
+	c. AutismDB_pli09_oe_lof_up_035_Constrained.csv (547 genes)
+	d. AutismDB_pli09_oe_lof_up_035_no_kidney_list_Constrained.csv (519 genes)
+	e. AutismDB_pli09_misZ309_Constrained.csv (265 genes)
+	f. AutismDB_pli09_oe_lof_up_035_ANDOR_misZ309_Constrained.csv (575 genes)
+	g. AutismDB_pli09_oe_lof_up_035_ANDOR_misZ309_no_kidney_list_Constrained.csv (546 genes)
+	h. AutismDB_gene_list.csv (1285 genes)
+5. Congenital Heart Disease (CHD) (https://www.nature.com/articles/ng.3970)	
+	a. CHD_constrained_genes.csv (251 genes)
+	b. CHD_misZ_309_Constrained.csv (46 genes)
+	c. CHD_misZ309_no_kidney_list_Constrained.csv (29 genes)
+	d. CHD_pli09_oe_lof_up_035_Constrained.csv (99 genes)
+	e. CHD_pli09_oe_lof_up_035_no_kidney_list_Constrained.csv (63 genes)
+	f. CHD_pli09_oe_lof_up_035_ANDOR_misZ309_Constrained.csv (106 genes)
+	g. CHD_pli09_oe_lof_up_035_ANDOR_misZ309_no_kidney_list_Constrained.csv (67 genes)
+	h. CHD_gene_list.csv (253 genes)
+6. Schizophrenia (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9005191/#supp1)
+	a. schizophrenia_gene_list_Missense_Constrained.csv (49 genes)
+	b. schizophrenia_gene_list_PTV_Constrained.csv (112 genes)
+	c. schizophrenia_gene_list_PTVMissense_Constrained.csv (118 genes)
+	d. schizophrenia_gene_list.csv (738 genes)
+
