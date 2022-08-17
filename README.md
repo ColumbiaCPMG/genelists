@@ -3,10 +3,10 @@
 The gene lists in this repository were collected from multiple public databases and published papers (sources noted below). The lists are separated into constrained and original genes. The constraint score is determined by the observed/expected ratio (oe) of less than 0.35. The constrained genes were further categorized by Protein Truncated Variants (PTV), Missense and PTVMissense. The criteria filter for constrained missense variants is a missense Z (misZ) score of greater than 3.09. The criteria filter for constrained PTV variants is a probability of being loss-of-function intolerant (pLI) score of greater than and equal to 0.9. These scores were calculated using data from the Genome Aggregation Database (gnomAD, https://gnomad.broadinstitute.org/help/constraint). 
 
 
-The current genelists and sources are below: 
-1. Kidney genes (https://www.columbiamedicine.org/divisions/gharavi/resources.php)
+## The current genelists and sources are below: 
+### 1. Kidney genes (https://www.columbiamedicine.org/divisions/gharavi/resources.php)
 	1. CPMG_kidney_gene_list.csv (625 genes)
-2. Nephron Progenitor Cells (NPC) (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000152)
+### 2. Nephron Progenitor Cells (NPC) (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000152)
 	1. NPCa_c_d_wk18__Top_decile_misZ3_09_no_kidney_list_Constrained.csv (228 genes)
 	2. NPCa_c_d_wk18_Top_decile_misZ3_09_Constrained.csv (238 genes)
 	3. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_Constrained.csv (632 genes)
@@ -15,7 +15,7 @@ The current genelists and sources are below:
 	6. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_ANDOR_misZ3_09_no_kidney_list_Constrained.csv (641 genes)
 	7. NPCa_c_d_wk18_Top_decile_no_Kidney_List_Genes.csv (2413 genes)
 	8. NPCa_c_d_wk18_Top_decile.csv (2451 genes)
-3. Autism (http://autism.mindspec.org/autdb/Welcome.do)
+### 3. Autism (http://autism.mindspec.org/autdb/Welcome.do)
 	1. ASD_constrained_genes.csv (1387 genes)
 	2. AutismDB_misZ309_no_kidney_list_Constrained.csv (250 genes)
 	3. AutismDB_pli09_oe_lof_up_035_Constrained.csv (547 genes)
@@ -24,7 +24,7 @@ The current genelists and sources are below:
 	6. AutismDB_pli09_oe_lof_up_035_ANDOR_misZ309_Constrained.csv (575 genes)
 	7. AutismDB_pli09_oe_lof_up_035_ANDOR_misZ309_no_kidney_list_Constrained.csv (546 genes)
 	8. AutismDB_gene_list.csv (1285 genes)
-4. Congenital Heart Disease (CHD) (https://www.nature.com/articles/ng.3970)	
+### 4. Congenital Heart Disease (CHD) (https://www.nature.com/articles/ng.3970)	
 	1. CHD_constrained_genes.csv (251 genes)
 	2. CHD_misZ_309_Constrained.csv (46 genes)
 	3. CHD_misZ309_no_kidney_list_Constrained.csv (29 genes)
@@ -33,7 +33,7 @@ The current genelists and sources are below:
 	6. CHD_pli09_oe_lof_up_035_ANDOR_misZ309_Constrained.csv (106 genes)
 	7. CHD_pli09_oe_lof_up_035_ANDOR_misZ309_no_kidney_list_Constrained.csv (67 genes)
 	8. CHD_gene_list.csv (253 genes)
-5. Schizophrenia (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9005191/#supp1)
+### 5. Schizophrenia (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9005191/#supp1)
 	1. schizophrenia_gene_list_Missense_Constrained.csv (49 genes)
 	2. schizophrenia_gene_list_PTV_Constrained.csv (112 genes)
 	3. schizophrenia_gene_list_PTVMissense_Constrained.csv (118 genes)
