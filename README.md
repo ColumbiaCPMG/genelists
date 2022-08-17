@@ -28,4 +28,8 @@ The gene lists in this repository were collected from multiple public databases 
 	2. schizophrenia_gene_list_PTV_Constrained.csv (112 genes)
 	3. schizophrenia_gene_list_Missense_Constrained.csv (49 genes)
 	4. schizophrenia_gene_list_PTVMissense_Constrained.csv (118 genes)
+### 6. gnomAD (https://gnomad.broadinstitute.org/downloads)
+	1. gnomad.v2.1.1_pli09_oe_lof_up_035_PTV_Constrained.csv (2852 genes)
+	2. gnomad.v2.1.1_misZ309_Missense_Constrained.csv (953 genes)
+	3. gnomad.v2.1.1_pli09_oe_lof_up_035_ANDOR_misZ309_PTVMissense_Constrained.csv (3041 genes)
 
