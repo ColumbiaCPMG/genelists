@@ -5,7 +5,8 @@ The gene lists in this repository were collected from multiple public databases 
 
 ## The current genelists within this repository are listed below along with their sources:
 ### 1. Kidney genes (https://www.columbiamedicine.org/divisions/gharavi/resources.php)
-	1. CPMG_kidney_gene_list.csv (625 genes)
+	1. CPMG_kidney_gene_list_n625.csv (625 genes)
+	2. CPMG_kidney_gene_list_ATAV_compatible_n620.csv (620 genes)
 ### 2. Nephron Progenitor Cells (NPC) (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000152)
 	1. NPCa_c_d_wk18_Top_decile.csv (2451 genes)
 	2. NPCa_c_d_wk18_Top_decile_pli09_oe_lof_up_035_PTV_Constrained.csv (632 genes)
